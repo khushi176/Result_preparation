@@ -25,7 +25,7 @@ It includes separate login sections for **students** and **teachers**, styled wi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/result-preparation-system.git
+   git clone https://github.com/<khushi176>/result-preparation-system.git
 cd result-preparation-system
 <img src="your-logo.png" alt="Institution Logo">
 <a href="login.html?role=student" class="btn">Student Login</a>
