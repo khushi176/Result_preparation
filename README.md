@@ -69,6 +69,43 @@ background: url('https://images.pexels.com/photos/7134990/pexels-photo-7134990.j
 
 ---
 
+# 🧑‍🏫 Teacher Dashboard – Result Preparation System
+
+This repository contains the **Teacher Dashboard page** for the Result Preparation System.  
+It allows teachers to **add student results** and **view reports** through a simple, styled interface.  
+
+---
+
+## ✨ Features
+
+- 🎨 Centered dashboard layout with background image  
+- 👋 Welcome header for teachers  
+- 📝 **Add Results** button (links to `details.html`)  
+- 📊 **View Reports** button (links to `projecthtml.html`)  
+- 📱 Responsive, clean UI with styled buttons and cards  
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<khushi176>/teacher-dashboard.git
+cd teacher-dashboard
+background-image: url('https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=600'');
+<a href="details.html" target="_blank">Add results</a>
+<a href="projecthtml.html" target="_blank">View Reports</a>
+
+---
+
+
+
+
 
 
 
