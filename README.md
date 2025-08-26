@@ -1,154 +1,58 @@
 # Result_preparation
-# 🎓 Result Preparation System - Login Page
+# 🎓 Result Preparation System  
 
-This repository contains a **responsive login page** for a Result Preparation System, built using **HTML & CSS**.  
-It includes separate login sections for **students** and **teachers**, styled with a clean modern UI.  
-
----
-
-## ✨ Features
-
-- 🌈 Gradient background (Blue → Lavender) with glassmorphism effect  
-- 👩‍🎓 Student login form (Student ID & Password)  
-- 👨‍🏫 Teacher login form (Teacher ID & Password)  
-- 📱 Responsive design for desktop and mobile  
-- 🖼️ Institution logo with shadow effect  
+The **Result Preparation System** is a simple web-based application built with **HTML, CSS, and JavaScript**.  
+It provides a structured platform for **students** and **teachers** to manage and view academic results.  
 
 ---
 
-## 📂 Project Structure
+## ✨ Features  
+
+### 🔐 Login System  
+- Separate login interfaces for **Students** and **Teachers**  
+- Glassmorphism design with responsive layout  
+
+### 🧑‍🎓 Student Section  
+- **Result Form Page** – Students can enter branch, semester, ID, and DOB for accessing results  
+- **Student Result Page** – Displays personal details, subject-wise marks (pointers), and automatically calculates **CGPA**  
+
+### 🧑‍🏫 Teacher Section  
+- **Teacher Dashboard** – Simple dashboard to add results or view reports  
+- **Student Result Report** – Allows teachers to input marks for subjects, auto-calculates **total**, **CGPA**, and assigns a **grade**  
+
+---
+
+## 📂 Project Structure  
 
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started  
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<khushi176>/result-preparation-system.git
+   git clone https://github.com/<your-username>/result-preparation-system.git
 cd result-preparation-system
-<img src="your-logo.png" alt="Institution Logo">
-<a href="login.html?role=student" class="btn">Student Login</a>
-<a href="teacher_dashboard.html" class="btn">Teacher Login</a>
+if (CGPA >= 9) grade = "A+";
+else if (CGPA >= 8) grade = "A";
+else if (CGPA >= 7) grade = "B";
+else if (CGPA >= 6) grade = "C";
+else if (CGPA >= 5) grade = "D";
+else grade = "F";
 
 ---
 
-# 📑 Result Preparation System – Result Form Page
+✨ This README introduces the project as a **complete system** rather than separate pages.  
 
-This repository contains a **result submission form page** for the Result Preparation System.  
-It’s designed using **HTML & CSS** with a background image and styled form components for a clean, modern look.  
+## 📸 Screenshots / Preview  
 
----
-
-## ✨ Features
-
-- 🎨 **Full-page background image** (from Pexels)  
-- 🏷️ **Branch selection dropdown** (CSE, Mechanical, IT)  
-- 📚 **Semester selection dropdown** (1st–8th)  
-- 🆔 Input fields for **Student ID** and **Date of Birth (as password)**  
-- 🚀 Submit button styled with hover effects, linked to `projecthtml.html`  
-- 📱 Responsive layout centered both vertically and horizontally  
-
----
-
-## 📂 Project Structure
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<khushi176>/result-form-page.git
-
-cd result-form-page
-background: url('https://images.pexels.com/photos/7134990/pexels-photo-7134990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
-<a href="your-result-page.html" target="_blank">
-    <button type="button">SUBMIT RESULT</button>
-</a>
-
----
-
-# 🧑‍🏫 Teacher Dashboard – Result Preparation System
-
-This repository contains the **Teacher Dashboard page** for the Result Preparation System.  
-It allows teachers to **add student results** and **view reports** through a simple, styled interface.  
-
----
-
-## ✨ Features
-
-- 🎨 Centered dashboard layout with background image  
-- 👋 Welcome header for teachers  
-- 📝 **Add Results** button (links to `details.html`)  
-- 📊 **View Reports** button (links to `projecthtml.html`)  
-- 📱 Responsive, clean UI with styled buttons and cards  
-
----
-
-## 📂 Project Structure
-
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<khushi176>/teacher-dashboard.git
-cd teacher-dashboard
-background-image: url('https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=600'');
-<a href="details.html" target="_blank">Add results</a>
-<a href="projecthtml.html" target="_blank">View Reports</a>
-
----
-
-
-# 🎓 Student Result Page – Result Preparation System
-
-This repository contains the **Student Result Page** of the Result Preparation System.  
-It displays a student’s personal details, subject-wise performance, and automatically calculates **CGPA** using JavaScript.  
-
----
-
-## ✨ Features
-
-- 👤 **Student Information** (Name, Roll No, Class, Parents’ Names)  
-- 📚 **Dynamic Subject Table** with subject names and pointers (out of 10)  
-- 🧮 **Automatic CGPA Calculation** from subject scores  
-- 🎨 Styled layout with responsive design using HTML + CSS  
-- ⚡ JavaScript-driven DOM updates for real-time result display  
-
----
-
-## 📂 Project Structure
-
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<khushi176>/student-result-page.git
-
-cd student-result-page
-const student = {
-  name: "Your Name",
-  rollNo: "Your Roll No",
-  class: "Your Class",
-  mother: "Mother's Name",
-  father: "Father's Name",
-  subjects: [
-    { name: "Subject 1", pointer: 8 },
-    { name: "Subject 2", pointer: 9 }
-  ]
-};
-
-
-
-
-
+| Page | Screenshot |
+|------|------------|
+| 🔐 Login Page | ![Login Page](screenshots/login.png) |
+| 📝 Student Result Form | ![Student Result Form](screenshots/result-form.png) |
+| 🧑‍🏫 Teacher Dashboard | ![Teacher Dashboard](screenshots/teacher-dashboard.png) |
+| 📊 Student Result Page | ![Student Result Page](screenshots/student-result.png) |
+| 📑 Student Report (with Grade) | ![Student Report](screenshots/student-report.png) |
 
 
 
