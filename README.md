@@ -104,6 +104,50 @@ background-image: url('https://images.pexels.com/photos/1454360/pexels-photo-145
 ---
 
 
+# 🎓 Student Result Page – Result Preparation System
+
+This repository contains the **Student Result Page** of the Result Preparation System.  
+It displays a student’s personal details, subject-wise performance, and automatically calculates **CGPA** using JavaScript.  
+
+---
+
+## ✨ Features
+
+- 👤 **Student Information** (Name, Roll No, Class, Parents’ Names)  
+- 📚 **Dynamic Subject Table** with subject names and pointers (out of 10)  
+- 🧮 **Automatic CGPA Calculation** from subject scores  
+- 🎨 Styled layout with responsive design using HTML + CSS  
+- ⚡ JavaScript-driven DOM updates for real-time result display  
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<khushi176>/student-result-page.git
+
+cd student-result-page
+const student = {
+  name: "Your Name",
+  rollNo: "Your Roll No",
+  class: "Your Class",
+  mother: "Mother's Name",
+  father: "Father's Name",
+  subjects: [
+    { name: "Subject 1", pointer: 8 },
+    { name: "Subject 2", pointer: 9 }
+  ]
+};
+
+
+
+
 
 
 
